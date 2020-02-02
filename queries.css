@@ -26,6 +26,11 @@
 
 @media only screen and (max-width:480px) {
     
-    
+    .author-image img{
+        width:100px;
+        height:100px;
+        margin-left:45px;
+        margin-bottom:15px;
+    }
     
 }
