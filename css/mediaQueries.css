@@ -1,0 +1,27 @@
+/* @media only screen and (max-width:10224){
+    .myPhoto
+    {
+        position: relative;
+        top: 50%;
+        transform: translateY(15%);
+        background-color: black;
+    }
+
+    #terminal{
+        width: 90%;
+    }
+
+} */
+ 
+ @media only screen and (max-width:320){
+    #terminal{
+        max-width: 90%;
+        height: 50vh;
+        margin-bottom: 20px;
+
+    }
+
+    h1{
+        font-size: 1em;
+    }
+}

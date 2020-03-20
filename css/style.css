@@ -1,0 +1,278 @@
+.myPhoto img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  margin: 35px;
+}
+
+h1 {
+  /* padding: 50px 0; */
+  text-align: center;
+  color: #bdc3c7;
+  font-size: 60px;
+  letter-spacing: -2px;
+}
+
+/* TERMINAL */
+#terminal {
+  background-color: black;
+  /* height: 50vh; */
+  /* max-width: 75%; */
+  /* max-width: 90%; */
+  margin: 0 auto;
+  transition: .4s;
+  box-shadow: 0px 5px 4px rgb(85, 80, 80);
+  border-radius: 3px;
+  margin-bottom: 30px;
+
+
+}
+
+/* hover effect */
+#terminal:hover {
+  box-shadow: 0px 13px 30px rgb(85, 80, 80);
+  transform: translate3d(0, -10px, 0);
+
+}
+
+.terminal-bar {
+  background-color: rgb(175, 168, 168);
+  height: 35px;
+  line-height: 36px;
+  padding-left: 4px;
+  padding-top: 1px;
+}
+
+.terminal-bar .circle {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  display: inline-block;
+}
+
+.terminal-bar .circle.circle-red {
+  background: red;
+  border-color: red;
+  margin: 0 2px;
+}
+
+.terminal-bar .circle.circle-orange {
+  background: orange;
+  border-color: orange;
+  margin: 0 2px;
+}
+
+.terminal-bar .circle.circle-green {
+  background: green;
+  border-color: green;
+  margin: 0 2px;
+}
+
+.terminal-body {
+  line-height: 25px;
+  font-family: monospace, sans-serif;
+  padding: 8px;
+  color: white;
+}
+
+
+.cursor {
+  display: inline-block;
+  height: 1.1em;
+  width: .2em;
+  vertical-align: middle;
+  animation: 1s blink step-end infinite;
+  /* animation-name: blink; */
+}
+
+/* @keyframes blink{
+    from, to{background: 0 0;}
+    
+    
+   50% {background: var(--blink-color);}
+} */
+
+:root {
+  --blink-color: purple;
+}
+
+
+@keyframes blink {
+
+  from,
+  to {
+    background: 0 0;
+  }
+
+  50% {
+    background: var(--blink-color);
+  }
+}
+
+@-moz-keyframes blink {
+
+  from,
+  to {
+    background: 0 0;
+  }
+
+  50% {
+    background: var(--blink-color);
+  }
+}
+
+@-webkit-keyframes blink {
+
+  from,
+  to {
+    background: 0 0;
+  }
+
+  50% {
+    background: var(--blink-color);
+  }
+}
+
+@-ms-keyframes blink {
+
+  from,
+  to {
+    background: 0 0;
+  }
+
+  50% {
+    background: var(--blink-color);
+  }
+}
+
+@-o-keyframes blink {
+
+  from,
+  to {
+    background: 0 0;
+  }
+
+  50% {
+    background: var(--blink-color);
+  }
+}
+
+.text-center {
+  margin-top: 40px;
+
+}
+
+footer a {
+  color: rgb(55, 81, 160);
+
+}
+
+footer a:hover {
+  text-decoration: none;
+
+}
+
+
+
+/* designs plans */
+
+.picture img {
+  /* position: absolute; */
+  /* top: 50px; */
+  /* margin: 20px; */
+
+}
+
+body {
+  /* background: rgb(241, 239, 235) !important; */
+  background-image: url("/img/savannah_kit8-net.png");
+  background-size: cover;
+  /* background: rgb(27, 26, 26 ) !important; */
+  /* background-repeat: no-repeat; */
+}
+
+.terminal-body .command1 {
+  color: rgb(212, 212, 93);
+
+}
+
+/* 
+.terminal-body .command .command1{
+  margin-bottom: 10px;
+} */
+
+
+#terminal {
+  /* background-image: url("/img/savannah_kit8-net.png"); */
+}
+
+/* 
+
+#social-links-wrapper.social-links li{
+  display: flex;
+  flex-direction: row;
+} */
+
+#social-links-wrapper {
+  /* margin: 0px 20px; */
+
+}
+
+ul.social-links {
+  list-style: none;
+}
+
+ul.social-links li {
+  display: inline;
+  margin-right: 25px;
+
+}
+
+
+/* MEDIA QUERIES */
+/* @media screen and (min-width: 1024px)
+{
+    #my-photo
+    {
+        position: relative;
+        top: 50%;
+        transform: translateY(15%);
+    }
+} */
+
+.centered_img_div {
+  margin: 0 auto;
+}
+
+/* not working need to fix as soon as possible */
+@media only screen and (max-width:375) {
+  h1 {
+    color: red;
+  }
+}
+
+/* BUTTON */
+/* button {
+  position: relative;
+  margin-top: 10%;
+  background: #055388;
+  border: 1px solid white;
+  padding: 20px;
+  font-size: 0.9em;
+  color: white;
+  box-shadow: 4px 4px 0px 0px white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+  left: 0;
+  top: 0;
+}
+
+button:hover {
+  left: 4px;
+  top: 4px;
+  box-shadow: 0 0 0 0 white;
+} */
